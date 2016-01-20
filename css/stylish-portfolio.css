@@ -176,7 +176,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    color: white;
+    color: #F1F0FF;
     
 }
 
@@ -205,7 +205,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: white;
-    background: url(../img/toronto.jpg) no-repeat center center scroll;
+    background: url(../img/jp.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
