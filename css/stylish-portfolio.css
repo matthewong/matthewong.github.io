@@ -176,7 +176,8 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    color: #F1F0FF;
+    text-shadow:5px 5px 10px black;
+    color: #f1f0ff;
     
 }
 
@@ -184,7 +185,8 @@ hr.small {
 
 .about {
     padding: 50px 0;
-    
+    background-color: #8C489F;
+    color: white;
 }
 
 /* Services */
@@ -244,12 +246,6 @@ hr.small {
 
 .map {
     height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
 }
 
 /* Footer */
