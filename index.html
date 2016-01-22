@@ -44,10 +44,10 @@
                 <a href="#services" onclick = $("#menu-close").click(); >Home</a>
             </li>
             <li>
-                <a href="#projects" onclick = $("#menu-close").click(); >Projects</a>
+                <a href="projects.html" onclick = $("#menu-close").click(); >Projects</a>
             </li>
             <li>
-                <a href="#aboutMe" onclick = $("#menu-close").click(); >About Me</a>
+                <a href="aboutMe.html" onclick = $("#menu-close").click(); >About Me</a>
             </li>
             <li>
                 <a href="#contactMe" onclick = $("#menu-close").click(); >Contact</a>
@@ -71,7 +71,7 @@
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md- col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -81,10 +81,10 @@
                                     <strong>About Me</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#about" class="btn btn-light">Read More</a>
+                                <a href="aboutMe.html" class="btn btn-light">Read More</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-6 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -95,19 +95,6 @@
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#projects" class="btn btn-light">Read More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-envelope-o fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Contact Me</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#contactMe" class="btn btn-light">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -131,15 +118,17 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/website.png">
+                                    <img class="img-portfolio img-responsive" src="img/website.png" alt='Personal Web Portfolio'>
                                 </a>
+                                <h4>Personal Web Portfolio</h4>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/hero.png">
+                                    <img class="img-portfolio img-responsive" src="img/hero.png" alt="pyCentipede">
                                 </a>
+                                <h4>pyCentipede</h4>
                             </div>
                         </div>
                     </div>
@@ -155,16 +144,12 @@
     
         <!-- About -->
     <section id="aboutMe" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
-                    <p class="lead"></p>
-                </div>
-            </div>
-            <!-- /.row -->
+        <div class="text-left">
+            <h1 id="aboutMeHeader">
+                About Me
+                <a href="aboutMe.html" class="btn btn-dark btn-lg text-center">More</a>
+            </h1> 
         </div>
-        <!-- /.container -->
     </section>
 
     <!-- Footer -->
