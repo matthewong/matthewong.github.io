@@ -281,6 +281,10 @@ footer {
     margin: auto;
 }
 
+#projectsTop,
+#aboutMeMain {
+    background-color: #8C489F !important;
+}
 hr { 
     display: block;
     margin-top: 0.5em;
