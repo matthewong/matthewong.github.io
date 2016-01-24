@@ -196,6 +196,7 @@ hr.small {
     color: #C3C3E5;
 }
 
+
 #aboutMeHeader {
     font-size: 75px;
 }
@@ -264,3 +265,30 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+#aboutMePicture {
+    width: 200px;
+    height: 200px;
+    
+}
+
+/* aboutMe Components */
+/* aboutMe Carousel */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    min-width: 100%;
+    margin: auto;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
