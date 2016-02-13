@@ -281,7 +281,7 @@ footer {
     margin: auto;
 }
 
-#projectsTop,
+#aboutMeCarousal,
 #aboutMeMain {
     background-color: #8C489F !important;
 }
@@ -295,4 +295,16 @@ hr {
     border-width: 1px;
 }
 
+#Sideprojects {
+    background-color: #8C489F !important;
+    
+}
+#body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#projectPics {
+    
+}
 
