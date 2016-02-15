@@ -297,7 +297,10 @@ hr {
 
 #Sideprojects {
     background-color: #8C489F !important;
-    
+    border-top: 0px;  
+}
+#topPage{
+    margin-bottom: 0px;
 }
 #body {
     margin-top: 50px;
@@ -306,5 +309,11 @@ hr {
 
 #projectPics {
     
+}
+
+#myNavbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
